@@ -1,0 +1,83 @@
+categorie,question,reponse,temps_secondes,outils_utilises
+simple,Quelle est la météo générale à marrakech ?,Je n'ai pas trouvé d'informations sur la météo générale à Marrakech.,1.71,"obtenir_meteo, obtenir_meteo"
+simple,Quels sont les incontournables à voir à Marrakech ?,"Les incontournables à voir à Marrakech sont la place Jemaa el-Fna, la médina, la mosquée Koutoubia, le palais de la Bahia, les tombeaux saadiens, le jardin Majorelle et le marché aux épices. Il est également recommandé de goûter les spécialités locales telles que le tajine, le couscous, le jus d'orange frais et le thé à la menthe.",1.69,rechercher_guide
+simple,Qu'est-ce que la place Jemaa el-Fna ?,"La place Jemaa el-Fna est un espace public animé situé au cœur de la médina de Marrakech, qui anime chaque soir avec des conteurs, des musiciens gnaouas, des charmeurs de serpents et des vendeurs de jus d'orange. Les environs regroupent des milliers d'artisans qui vendent des produits tels que du cuir, des tapis, des lanternes et des épices. La place est également entourée de sites incontournables tels que les jardins Majorelle, la Koutoubia et le palais de Bahia.",12.86,rechercher_guide
+simple,Quelle est la meilleure période pour visiter Chefchaouen ?,"La meilleure période pour visiter Chefchaouen est le printemps (avril-mai) et le début de l'automne (septembre-octobre), car le climat de montagne est particulièrement agréable pendant ces périodes. Les hivers sont frais et pluvieux, tandis que les étés sont doux comparés au reste du pays.",22.61,rechercher_guide
+simple,Pourquoi Chefchaouen est-elle appelée la ville bleue ?,"Chefchaouen est appelée la ville bleue en raison des façades bleues et blanches de sa médina, qui en font l'une des villes les plus photographiées du pays. Les ruelles et escaliers de la médina sont peints dans différentes nuances de bleu, ce qui donne à la ville son caractère unique et pittoresque.",23.34,rechercher_guide
+simple,Quels sont les plats typiques de Fès ?,"Les plats typiques de Fès sont notamment la pastilla, une tourte feuilletée sucrée-salée traditionnellement préparée au pigeon avec des amandes et du sucre glace, la harira, une soupe épaisse à base de tomates, lentilles et pois chiches, et le msemen, une crêpe feuilletée servie au petit-déjeuner.",20.83,rechercher_guide
+simple,Comment se déplacer dans la médina de Fès ?,"Pour se déplacer dans la médina de Fès, il est recommandé de suivre les ruelles piétonnes et de demander son chemin aux habitants ou aux guides locaux. Les taxis et les véhicules motorisés sont interdits dans la médina, ce qui permet de maintenir un environnement calme et authentique. Il est également possible de louer des vélos ou des scooters pour se déplacer plus rapidement, mais il est important de respecter les règles de circulation et les règles de sécurité. Enfin, il est possible de prendre des rickshaws ou des calèches pour se déplacer dans la médina, mais il est important de négocier le prix avant de monter.",22.98,rechercher_guide
+simple,Quel est l'aéroport le plus proche de Marrakech ?,"L'aéroport le plus proche de Marrakech est l'aéroport Marrakech-Ménara. Il est situé à environ 6 kilomètres au sud-est du centre-ville et est desservi par de nombreuses compagnies aériennes, notamment des compagnies low-cost européennes. Les visiteurs peuvent se rendre en ville en utilisant les petits taxis beiges ou les calèches, qui sont les moyens de transport les plus utilisés par les touristes.",22.62,rechercher_guide
+simple,Qu'est-ce que l'université Al Quaraouiyine ?,"L'université Al Quaraouiyine est une institution d'enseignement supérieur fondée en 859 à Fès, au Maroc. Elle est considérée comme l'une des plus anciennes universités du monde arabe et est reconnue pour son rôle important dans la transmission des connaissances et de la culture islamique. L'université Al Quaraouiyine a joué un rôle clé dans l'histoire du Maroc et a été un centre d'études et de recherche pour de nombreux savants et érudits. Aujourd'hui, l'université continue à jouer un rôle important dans l'éducation et la recherche au Maroc.",19.67,rechercher_guide
+simple,Quel budget pour un séjour de 5 jours à 400 DH par jour ?,"Le budget total approximatif pour un séjour de 5 jours au Maroc, à un rythme de 400 DH par jour, est d'environ 2000 DH (hors avion).",15.18,estimer_budget
+complexe,"Je pars 7 jours à Marrakech, donne-moi les sites à visiter, la météo et un budget.","Voici les informations que vous avez demandées :
+
+**Sites à visiter à Marrakech**
+
+Marrakech est la ville touristique la plus fréquentée du Maroc, célèbre pour la couleur ocre-rouge de ses remparts et de sa médina, classée au patrimoine mondial de l'UNESCO depuis 1985. Les sites incontournables à visiter à Marrakech incluent :
+
+* La place Jemaa el-Fna, qui anime le centre de la médina chaque soir avec conteurs, musiciens gnaouas, etc.
+* La Bahia, qui témoigne de l'architecture des dynasties passées.
+* Les tombeaux saadiens, qui sont également un exemple de l'architecture des dynasties passées.
+
+**Météo à Marrakech**
+
+La météo à Marrakech est généralement chaude, avec des températures qui peuvent dépasser 38-40°C en été (juin à août). Les mois de mars à mai et de septembre à novembre offrent des températures agréables (18 à 28°C). Il est donc recommandé de visiter Marrakech pendant ces périodes pour éviter les températures trop chaudes.
+
+**Budget pour 7 jours à Marrakech**
+
+Le budget estimé pour 7 jours à Marrakech est de environ 3500 DH (hors avion), en fonction d'un budget journalier moyen de 500 DH. Cela inclut les repas, le transport local et les activités. Il est important de noter que ces chiffres sont approximatifs et peuvent varier en fonction de vos préférences et de vos dépenses personnelles.",33.88,"rechercher_guide, obtenir_meteo, estimer_budget, rechercher_guide"
+complexe,Compare Marrakech et Fès en gastronomie et sites historiques.,"ERREUR: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01kwvqf08zecbswxz1wyqkjzvy` service tier `on_demand` on tokens per minute (TPM): Limit 6000, Used 4908, Requested 1168. Please try again in 760ms. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",8.75,aucun
+complexe,Itinéraire Chefchaouen + Fès : que voir dans chaque ville ?,"Chefchaouen et Fès sont deux villes très différentes mais également très riches en histoire et en culture. 
+
+Chefchaouen, également connue sous le nom de la ville bleue, est une ville située dans les montagnes du Rif, au nord du Maroc. Elle est connue pour ses façades bleues et blanches de sa médina, qui en font l'une des villes les plus photographiées du pays. La médina bleue elle-même constitue la principale attraction, avec ses ruelles et escaliers peints. La région du Rif est réputée pour son fromage de chèvre local et ses produits laitiers artisanaux, ainsi que pour son pain traditionnel cuit au four à bois.
+
+Fès, quant à elle, est une ville historique et culturelle très riche. Elle est connue pour sa pastilla, une tourte feuilletée sucrée-salée traditionnellement préparée au pigeon avec des amandes et du sucre glace. On y trouve aussi la harira (soupe consommée notamment pendant le Ramadan) et diverses pâtisseries à base d'amandes comme les cornes de gazelle. La place Jemaa el-Fna anime le centre de la médina chaque soir avec conteurs, musiciens gnaouas, charmeurs de serpents et vendeurs de jus d'orange. Les souks environnants regroupent des milliers d'artisans (cuir, tapis, lanternes, épices). Les jardins Majorelle, créés par le peintre Jacques Majorelle puis rachetés par Yves Saint Laurent, sont réputés pour leur bleu caractéristique. La Koutoubia, principale mosquée de la ville, domine le paysage avec son minaret d'environ 70 mètres. Le palais de Bahia est un autre site incontournable de la ville, avec ses jardins et ses salles décorées de mosaïques et de fresques.
+
+En résumé, Chefchaouen est une ville de montagne avec une médina bleue unique et une gastronomie locale riche, tandis que Fès est une ville historique et culturelle avec une riche tradition culinaire et des sites incontournables comme la place Jemaa el-Fna et les jardins Majorelle.",14.55,rechercher_guide
+complexe,"Été et je n'aime pas la chaleur : Marrakech, Fès ou Chefchaouen ?","ERREUR: Error code: 400 - {'error': {'message': ""Failed to call a function. Please adjust your prompt. See 'failed_generation' for more details."", 'type': 'invalid_request_error', 'code': 'tool_use_failed', 'failed_generation': '<function=rechercher_guide>{""query"": ""Marrakech, Fès ou Chefchaouen pour l\\\'été et la chaleur""};</function>\n\n'}}",11.86,aucun
+complexe,"Budget pour 10 jours à Fès, puis les 3 sites historiques à voir.","Il semble que la réponse précédente ait été coupée. Voici une réponse complète :
+
+Le budget estimé pour 10 jours à Fès est d'environ 5000 DH (hors avion), en supposant un budget journalier moyen de 500 DH.
+
+Fès est une ville riche en histoire et en culture, et il y a de nombreux sites à visiter. Voici trois sites historiques à voir à Fès :
+
+1. La médina de Fès el-Bali : c'est l'une des plus grandes zones piétonnes du monde, avec plus de 9000 ruelles. La médina est classée au patrimoine mondial de l'UNESCO et est considérée comme l'une des plus anciennes villes impériales du Maroc.
+2. Les tanneries Chouara : c'est un site historique où l'on peut observer le tannage traditionnel du cuir. Les tanneries sont situées dans la médina et offrent une vue imprenable sur la ville.
+3. La mosquée Al-Attarine : c'est une mosquée historique qui date du XIVe siècle. Elle est connue pour ses belles décorations et ses arches élégantes.
+
+Il est recommandé de visiter Fès pendant la saison printanière (mars à mai) ou automnale (septembre à novembre), car les températures sont plus agréables. Il est également possible de goûter à la gastronomie locale, qui est riche et variée.",25.12,"estimer_budget, rechercher_guide"
+complexe,Différences entre les médinas de Marrakech et Fès ?,"Les médinas de Marrakech et Fès sont deux des plus anciennes et des plus emblématiques de l'histoire du Maroc. Bien que les deux villes soient célèbres pour leur architecture riche et leur patrimoine culturel, elles présentent des différences notables.
+
+La médina de Marrakech est connue pour sa couleur ocre-rouge, qui lui a valu le surnom de ""ville rouge"". Elle est classée au patrimoine mondial de l'UNESCO depuis 1985 et est l'une des plus fréquentées du Maroc. La médina de Marrakech est animée par la place Jemaa el-Fna, qui est un lieu de rencontre pour les conteurs, les musiciens et les vendeurs de souvenirs. Les visiteurs peuvent également explorer les ruelles étroites et les marchés locaux pour découvrir la gastronomie et les produits artisanaux de la région.
+
+La médina de Fès, quant à elle, est considérée comme la capitale spirituelle et culturelle du Maroc. Elle est classée au patrimoine mondial de l'UNESCO depuis 1981 et est l'une des plus anciennes des villes impériales du Maroc. La médina de Fès est connue pour ses ruelles étroites et ses monuments historiques, tels que la mosquée Al-Attarine et la madrasa Bou Inania. Les visiteurs peuvent également explorer les tanneries Chouara, qui sont un exemple de l'artisanat traditionnel du Maroc.
+
+En résumé, les médinas de Marrakech et Fès sont deux des plus emblématiques du Maroc, mais elles présentent des différences notables en termes de couleur, d'architecture et de patrimoine culturel. La médina de Marrakech est connue pour sa couleur ocre-rouge et son animation, tandis que la médina de Fès est considérée comme la capitale spirituelle et culturelle du Maroc.",24.3,rechercher_guide
+complexe,Où manger la meilleure pastilla et pourquoi ?,"Désolé, mais je n'ai pas trouvé d'informations sur la meilleure pastilla à manger au Maroc. Le guide touristique mentionne quelques spécialités culinaires marocaines, mais pas spécifiquement la pastilla. Si vous avez d'autres questions ou souhaitez en savoir plus sur d'autres aspects du Maroc, je serais ravi de vous aider !",25.26,rechercher_guide
+complexe,Randonnée et culture ensemble : quelle ville et quelles activités ?,"La ville idéale pour une randonnée et une immersion culturelle est Chefchaouen, également connue sous le nom de ""la ville bleue"". Cette ville nichée dans les montagnes du Rif, au nord du Maroc, offre un environnement naturel exceptionnel pour les randonnées. Les ruelles et escaliers de la médina bleue sont peints dans différentes nuances de bleu, ce qui en fait une attraction unique et photographiée à l'échelle mondiale.
+
+Les sites incontournables à visiter à Chefchaouen incluent la médina bleue elle-même, les cascades d'Akchour accessibles après une randonnée d'environ 40 minutes, et la Kasbah, forteresse du XVe siècle, qui abrite un petit musée ethnographique et un jardin andalou.
+
+Pour une expérience complète, il est recommandé de visiter Chefchaouen pendant la meilleure période, qui est le printemps (avril-mai) et le début de l'automne (septembre-octobre), lorsque le climat de montagne est particulièrement agréable pour explorer la ville à pied et faire des randonnées.",25.42,rechercher_guide
+complexe,Plan de 3 jours à Chefchaouen avec météo et budget à 350 DH/jour.,"Voici un plan de 3 jours à Chefchaouen :
+
+**Jour 1 :**
+
+* Matin : Explorez la médina bleue de Chefchaouen, avec ses ruelles et escaliers peints.
+* Après-midi : Visitez les sites incontournables de la ville, tels que la mosquée et le palais de la médina.
+* Soir : Découvrez la place Jemaa el-Fna, qui anime le centre de la médina chaque soir avec des conteurs, des musiciens gnaouas et des vendeurs de jus d'orange.
+
+**Jour 2 :**
+
+* Matin : Faites une randonnée dans les montagnes du Rif pour admirer la vue sur la ville.
+* Après-midi : Visitez les souks environnants pour découvrir les artisans locaux et leurs produits.
+* Soir : Découvrez la cuisine locale à Chefchaouen, notamment le fromage de chèvre et les produits laitiers artisanaux.
+
+**Jour 3 :**
+
+* Matin : Explorez les jardins Majorelle, créés par le peintre Jacques Majorelle et rachetés par Yves Saint Laurent.
+* Après-midi : Visitez la Koutoubia, la principale mosquée de la ville, et son minaret d'environ 70 mètres.
+* Soir : Découvrez la vie nocturne de la ville, avec des musiciens et des conteurs qui animent la place Jemaa el-Fna.
+
+N'oubliez pas de prendre en compte le climat de montagne, qui peut être frais et pluvieux en hiver et doux en été. Il est donc recommandé de visiter la ville en avril-mai ou en septembre-octobre pour profiter du meilleur temps.",29.47,"obtenir_meteo, estimer_budget, rechercher_guide"
+complexe,"Origine de la couleur bleue à Chefchaouen, lien religieux ?","La couleur bleue à Chefchaouen est due à la peinture des façades de la médina, qui a été réalisée pour donner une touche de fraîcheur et de beauté à la ville. Il n'y a pas de lien religieux spécifique avec la couleur bleue, mais plutôt une volonté de créer une atmosphère agréable et accueillante pour les visiteurs. La médina bleue est l'une des principales attractions de la ville, avec ses ruelles et escaliers peints dans différentes nuances de bleu.",26.76,rechercher_guide

@@ -29,15 +29,18 @@ de LangChain, comme demandé dans la consigne).
 evaluation/
 ├── data/
 │   └── guide_tourisme_maroc.pdf   # base documentaire (guide touristique)
-├── vectorstore.py                 # Etape 1 : prétraitement + vectorisation
-├── tools.py                       # Etape 2 : outils (rechercher_guide, obtenir_meteo, estimer_budget)
-├── graph.py                       # Etape 3 : graphe LangGraph (state + mémoire)
-├── visualize.py                   # Etape 4 : visualisation du graphe
-├── evaluate.py                    # Etape 5 : évaluation (10 questions simples + 10 complexes)
-├── resultats_evaluation.csv       # généré après evaluate.py
-├── graph.png                      # généré après visualize.py
-├── requirements.txt
-├── .env                           # contient GROQ_API_KEY (non versionné)
+├── src/
+│   ├── vectorstore.py             # Etape 1 : prétraitement + vectorisation
+│   ├── tools.py                   # Etape 2 : outils (rechercher_guide, obtenir_meteo, estimer_budget)
+│   ├── graph.py                   # Etape 3 : graphe LangGraph (state + mémoire)
+│   ├── visualize.py               # Etape 4 : visualisation du graphe
+│   ├── evaluate.py                # Etape 5 : évaluation (10 questions simples + 10 complexes)
+│   └── graph.png                  # généré après visualize.py
+├── resultats_evaluation.csv        # généré après evaluate.py
+├── pyproject.toml
+├── uv.lock
+├── .gitignore                      # exclut .venv/, __pycache__/, .env
+├── .env                             # contient GROQ_API_KEY (non versionné)
 └── README.md
 ```
 
@@ -148,4 +151,4 @@ START → agent → (appel d'outil nécessaire ?)
 
 ## Auteur
 
-Projet individuel réalisé par Mehdi, dans le cadre du Master IIBDCC.
+Projet individuel réalisé par EL Mehdi EL MAIS, dans le cadre du Master IIBDCC.
